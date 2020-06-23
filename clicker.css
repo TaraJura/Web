@@ -1,0 +1,30 @@
+body {
+text-align: center;
+background-color: lightblue;
+}
+
+img {
+border-radius: 50px;
+width: 500px;
+}
+
+
+#downvote {
+padding: 20px;
+border-radius:30px;
+margin: 30px;
+background-color: red;
+}
+#upvote {
+padding: 20px;
+border-radius:30px;
+margin: 30px;
+background-color: green;
+
+}
+
+#send {
+padding: 5px;
+border-radius: 10px;
+background-color: orange;
+}

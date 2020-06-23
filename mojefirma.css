@@ -1,0 +1,106 @@
+
+#nadpis {
+color: ;
+text-align: center;
+animation-name: nadpis;
+animation-duration: 2s;
+position: relative;
+margin-top: 0px;
+font-family: cursive;
+}
+
+#nadpis1 {
+color: #4000ff;
+text-align: center;
+}
+@keyframes nadpis {
+0% {left: -1000px}
+100% {left: 0px}
+}
+body {
+background-color:  ;
+position: static ;
+margin: 0 auto;
+background-image: url('124.jpg');
+
+
+}
+
+#table1 {
+color:white;
+
+}
+
+#table2 {
+text-align: center;
+
+}
+
+#regB {
+background-color: ;
+}
+
+#obsah {
+text-align: left;
+position: relative;
+animation-name: tab;
+animation-duration: 3s;
+color: white;
+
+}
+
+#fajky {
+text-align: left;
+position: relative;
+animation-name: fajky;
+animation-duration: 2s;
+opacity: 0;
+animation-delay: 3s;
+animation-fill-mode: forwards;
+color: white ;
+
+}
+
+@keyframes tab {
+0% {left: -2000px}
+100% {left: 0px}
+}
+
+@keyframes fajky {
+0% {opacity: 0}
+100% {opacity: 1}
+}
+
+#phone {
+position: relative;
+color: blue;
+text-align: center;
+display: inline-block;
+padding: 5px 45% 5px 50% ;
+margin: 0 auto;
+}
+
+#phone1 {
+background-color: black;
+}
+#web{
+text-align: center;
+
+}
+
+#web1 {
+height: 500px;
+width: 1300px;
+}
+#backG {
+background-image: url('abstr.jpg');
+}
+
+#backG3 {
+position: absolute;
+height: 300px;
+width:450px;
+left: 39%;
+top: 43%;
+border-radius: 30px;
+}
